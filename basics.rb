@@ -1,18 +1,14 @@
 
 
 def age
-  age = 28
-  return age
+  return 28 + 1
 end
-
-puts "you are #{age} years old"
-
-
-def say_hi(name)
-  return "Hi #{name.length}."
-end
-
-puts say_hi("kYLe") + "You are #{age}."
-
 
 # new code I'm adding is correct age
+
+def say_hi(name)
+  return "Hi #{name.capitalize}. You are nearly #{age} years old!"
+end
+
+puts say_hi("kyle")
+
