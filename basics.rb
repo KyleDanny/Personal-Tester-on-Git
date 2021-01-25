@@ -12,7 +12,7 @@ def say_hi(name)
   return "Hi #{name.length}."
 end
 
-puts say_hi("kYLe")
+puts say_hi("kYLe") + "You are #{age}."
 
 
 # new code I'm adding is correct age
