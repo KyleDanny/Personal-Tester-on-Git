@@ -1,11 +1,11 @@
 
 
-def tomorrow
-  tomorrow = 26
-  return tomorrow
+def age
+  age = 28
+  return age
 end
 
-puts "you are #{tomorrow} years old"
+puts "you are #{age} years old"
 
 
 def say_hi(name)
@@ -15,3 +15,4 @@ end
 puts say_hi("kYLe")
 
 
+# new code I'm adding is correct age
